@@ -101,19 +101,33 @@ transform: scale(1 );
 .categories{
     position: relative;
     overflow: hidden;
+    margin-right: 0%;
 }
 .categories .categories_item{
     position: relative;
-    height: 350px;
-    display: flex;
+    height: 230px;
     align-items: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 .categories .categories_large_item{
-    height:80vh ;
+    height: 750px;
+    width: 140%;
+    margin-left: 0%;
 }
-
-
-
+.img-fluid1{
+    height: 70.5vh;
+    width: 69.5%;
+}
+.categories .img-fluid.categories_text{
+    position: absolute;
+    left: 50px;
+}
+.categories .categories_item .categories_text{
+   position: absolute; 
+   left: 50px;
+   max-width: 300px;
+}
 
 
 
